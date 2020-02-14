@@ -1,0 +1,30 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter First Name");
+		String first=sc.next();
+		System.out.println("Enter Second String");
+		String Second=sc.next();
+		System.out.println("Enter Third String");
+		String third=sc.next();
+		
+		String Final=first.concat(Second);
+		
+		char[]second1=Final.toCharArray();
+		char[]third1=third.toCharArray();
+		
+		Arrays.sort(first1);
+		Arrays.sort(second1);
+		Arrays.sort(third1);
+		
+		
+		
+		
+	}
+	
+}

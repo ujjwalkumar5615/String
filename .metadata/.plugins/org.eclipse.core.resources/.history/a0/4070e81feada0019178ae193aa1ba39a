@@ -1,0 +1,24 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter First Name");
+		String first=sc.next();
+		System.out.println("Enter Second String");
+		String Second=sc.next();
+		System.out.println("Enter Third String");
+		String third=sc.next();
+		
+		char[] first1=first.toCharArray();
+		char[]second1=Second.toCharArray();
+		char[]third1=third.toCharArray();
+		
+		
+		
+	}
+	
+}
